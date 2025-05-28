@@ -1,4 +1,4 @@
-header {    
+header  {    
     background-color: #4CAF50; /* Green background */
     color: white; /* White text */
     padding: 10px 0; /* Padding for top and bottom */
@@ -7,26 +7,36 @@ header {
     display: flex; /* Use flexbox for layout */
     box-sizing: border-box; /* Include padding and border in element's total width and height */
     flex-wrap: wrap; /* Allow items to wrap to the next line */
-    
 
         }
+
+header .hot {
+    background-color: #ff5722; /* Red background for hot item */
+    color: white; /* White text */
+    padding: 10px; /* Padding for hot item */
+    margin: 10px; /* Margin around hot item */
+    flex: ; /* Takes up available space */
+    text-align: center; /* Centered text in hot item */
+    font-size: 24px; /* Font size for hot item */
 header .flex-item {
     flex: 1; /* Each item takes equal space */
     padding: 10px;/* Padding for each item */
     margin: 10px; /* Margin around each item */
     text-align: center; /* Centered text in each item */
+    
        
 }
 .main {
     padding: 10px; /* Padding for main content */
-    background-color: #f4f4f4; /* Light gray background */
+    background-color: lightpink;
     box-sizing: border-box; /* Include padding and border in element's total width and height */
     display: flex; /* Use flexbox for layout */
     font-size: 24px; /* Font size for main content */
     margin: 10px
     flex-direction: column;
+}
 
-.main.subsec1
+.main.subsec1 {
     flex: 1; /* Takes up available space */
     padding: 10px; /* Padding for sub-section */
     background-color: #e0e0e0; /* Slightly darker gray background */
