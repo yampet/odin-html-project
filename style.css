@@ -5,9 +5,32 @@ header {
     margin: auto; /* No margin */
     text-align: center; /* Centered text */
     display: flex; /* Use flexbox for layout */
-    .flex-item {
-    flex: 1 1 0; /* Flex item that grows and shrinks */
-    }
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    
+
+        }
+header .flex-item {
+    flex: 1; /* Each item takes equal space */
+    padding: 10px;/* Padding for each item */
+    margin: 10px; /* Margin around each item */
+    text-align: center; /* Centered text in each item */
        
+}
+.main {
+    padding: 10px; /* Padding for main content */
+    background-color: #f4f4f4; /* Light gray background */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    display: flex; /* Use flexbox for layout */
+    font-size: 24px; /* Font size for main content */
+    margin: 10px
+    flex-direction: column;
+
+.main.subsec1
+    flex: 1; /* Takes up available space */
+    padding: 10px; /* Padding for sub-section */
+    background-color: #e0e0e0; /* Slightly darker gray background */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    font-size: 10px
 
 }
