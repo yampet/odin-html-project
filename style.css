@@ -1,0 +1,13 @@
+header {    
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 0; /* Padding for top and bottom */
+    margin: auto; /* No margin */
+    text-align: center; /* Centered text */
+    display: flex; /* Use flexbox for layout */
+    .flex-item {
+    flex: 1 1 0; /* Flex item that grows and shrinks */
+    }
+       
+
+}
