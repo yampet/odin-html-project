@@ -7,6 +7,8 @@ header  {
     display: flex; /* Use flexbox for layout */
     box-sizing: border-box; /* Include padding and border in element's total width and height */
     flex-wrap: wrap; /* Allow items to wrap to the next line */
+    gap: 10px;
+    justify-content: space-evenly;
 
         }
 
@@ -18,11 +20,14 @@ header .hot {
     flex: ; /* Takes up available space */
     text-align: center; /* Centered text in hot item */
     font-size: 24px; /* Font size for hot item */
+}
 header .flex-item {
     flex: 1; /* Each item takes equal space */
     padding: 10px;/* Padding for each item */
     margin: 10px; /* Margin around each item */
     text-align: center; /* Centered text in each item */
+    
+    ;
     
        
 }
@@ -33,15 +38,18 @@ header .flex-item {
     display: flex; /* Use flexbox for layout */
     font-size: 24px; /* Font size for main content */
     margin: 10px
-    flex-direction: column;
-    
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    gap: 10px; /* Space between items */
+       
 }
 
-.main.subsec1 {
+.main .subsec1 {
     flex: 1; /* Takes up available space */
     padding: 10px; /* Padding for sub-section */
     background-color: #e0e0e0; /* Slightly darker gray background */
     box-sizing: border-box; /* Include padding and border in element's total width and height */
-    font-size: 10px
+    font-size: 15px;
+    flex: 1 1 0%
+    
 
 }
