@@ -27,8 +27,9 @@ header .flex-item {
     padding: 10px;/* Padding for each item */
     margin: 10px; /* Margin around each item */
     text-align: center; /* Centered text in each item */;
-        
+    ;      
 }
+
 .main {
     padding: 10px; /* Padding for main content */
     background-color: lightpink;
