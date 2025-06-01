@@ -8,8 +8,8 @@ header  {
     box-sizing: border-box; /* Include padding and border in element's total width and height */
     flex-wrap: wrap; /* Allow items to wrap to the next line */
     gap: 10px;
-    justify-content: space-evenly;
-
+    justify-content: space-around; /* Space between items */
+    align-items: center; /* Center items vertically */
         }
 
 header .hot {
@@ -20,16 +20,14 @@ header .hot {
     flex: ; /* Takes up available space */
     text-align: center; /* Centered text in hot item */
     font-size: 24px; /* Font size for hot item */
+
 }
 header .flex-item {
     flex: 1; /* Each item takes equal space */
     padding: 10px;/* Padding for each item */
     margin: 10px; /* Margin around each item */
-    text-align: center; /* Centered text in each item */
-    
-    ;
-    
-       
+    text-align: center; /* Centered text in each item */;
+        
 }
 .main {
     padding: 10px; /* Padding for main content */
@@ -40,6 +38,9 @@ header .flex-item {
     margin: 10px
     flex-wrap: wrap; /* Allow items to wrap to the next line */
     gap: 10px; /* Space between items */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
        
 }
 
@@ -50,6 +51,21 @@ header .flex-item {
     box-sizing: border-box; /* Include padding and border in element's total width and height */
     font-size: 15px;
     flex: 1 1 0%
-    
-
 }
+
+.button1 {
+    background-color: blueviolet; /* Green background */
+    border: none; /* No border */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for button */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Inline block for button */
+    font-size: 16px; /* Font size for button */
+    margin: 4px 2px; /* Margin around button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+.button1:hover {
+    background-color: #45a049; /* Darker green on hover */  
+}
+
