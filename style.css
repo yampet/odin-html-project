@@ -126,6 +126,7 @@ header .flex-item {
 .quote {
     display: flex;
     flex-direction: column;
+    border: #e0e0e0;
 
 
 }
