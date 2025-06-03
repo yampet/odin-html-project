@@ -48,7 +48,6 @@ header .flex-item {
     /* Centered text in each item */
 
 
-
 }
 
 .main {
@@ -124,11 +123,10 @@ header .flex-item {
 }
 
 .quote {
-    display: flex;
-    flex-direction: column;
-    border: #e0e0e0;
-
-
+    border-color: #333;
+    border-width:0caption;
+    border-style: solid;
+    flex-direction: column
 }
 
 .subtext {
