@@ -121,33 +121,46 @@ header .flex-item {
     align-items: end;
     /* Center items vertically */
 }
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
 
-.quote {
-    border-color: #333;
-    border-width:0caption;
-    border-style: solid;
-    flex-direction: column
+.box {
+    background-color: whitesmoke;
+    /* Slightly darker gray background */
+    border: 1px solid #ccc;
+    /* Gray border */
+    padding: 10px;
+    /* Padding for box */
+    margin: 10px;
+    /* Margin around box */
+    text-align: center;
+    /* Centered text in box */
+    font-size: 18px;
+    /* Font size for box */
+    display: flex;
+    flex: 1 1 0%;
+    width: 40px;
+    height: 40px;
 }
 
 .subtext {
-    font-size: 18px;
-    /* Font size for subtext */
-    color: #333;
-    /* Dark gray text color */
-    margin: 10px 0;
-    /* Margin around subtext */
-    text-align: center;
-    /* Centered text */
     display: flex;
-    /* Use flexbox for layout */
-    flex-direction: column;
-    /* Stack items vertically */
-    align-items: center;
-    /* Center items horizontally */
-    justify-content: center;
-    /* Center items vertically */
+    flex-wrap: wrap;
+}
+.subsec {
+    margin: 10px;
+    padding: 10px;
+    /* Padding for sub-section */
+    background-color: #e0e0e0;
+    /* Slightly darker gray background */
     box-sizing: border-box;
     /* Include padding and border in element's total width and height */
-    padding: 10px;
-    /* Padding for subtext */
+    font-size: 15px;
+    flex: 1 1 0%;
+    width:10px;
+    height: 40px; 
+    border: 1px solid #ccc;
+    display: flex;
+    
 }
