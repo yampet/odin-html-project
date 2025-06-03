@@ -1,89 +1,154 @@
-header  {    
-    background-color: #4CAF50; /* Green background */
-    color: white; /* White text */
-    padding: 10px 0; /* Padding for top and bottom */
-    margin: auto; /* No margin */
-    text-align: center; /* Centered text */
-    display: flex; /* Use flexbox for layout */
-    box-sizing: border-box; /* Include padding and border in element's total width and height */
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
+header {
+    background-color: #4CAF50;
+    /* Green background */
+    color: white;
+    /* White text */
+    padding: 10px 0;
+    /* Padding for top and bottom */
+    margin: auto;
+    /* No margin */
+    text-align: center;
+    /* Centered text */
+    display: flex;
+    /* Use flexbox for layout */
+    box-sizing: border-box;
+    /* Include padding and border in element's total width and height */
+    flex-wrap: wrap;
+    /* Allow items to wrap to the next line */
     gap: 10px;
-    justify-content: space-around; /* Space between items */
-    align-items: center; /* Center items vertically */
-        }
+    justify-content: space-around;
+    /* Space between items */
+    align-items: center;
+    /* Center items vertically */
+}
 
 header .hot {
-    background-color: #ff5722; /* Red background for hot item */
-    color: white; /* White text */
-    padding: 10px; /* Padding for hot item */
-    margin: 10px; /* Margin around hot item */
-    flex: 1; /* Takes up available space */
-    text-align: center; /* Centered text in hot item */
-    font-size: 24px; /* Font size for hot item */
+    background-color: #ff5722;
+    /* Red background for hot item */
+    color: white;
+    /* White text */
+    padding: 10px;
+    /* Padding for hot item */
+    margin: 10px;
+    /* Margin around hot item */
+
+    text-align: center;
+    /* Centered text in hot item */
+    font-size: 24px;
+    /* Font size for hot item */
 
 }
+
 header .flex-item {
-    flex: 1; /* Each item takes equal space */
-    padding: 10px;/* Padding for each item */
-    margin: 10px; /* Margin around each item */
-    text-align: center; /* Centered text in each item */;
-    ;      
+    flex: 1;
+    /* Each item takes equal space */
+    padding: 10px;
+    /* Padding for each item */
+    text-align: center;
+    /* Centered text in each item */
+
+
+
 }
 
 .main {
-    padding: 10px; /* Padding for main content */
+    padding: 10px;
+    /* Padding for main content */
     background-color: lightpink;
-    box-sizing: border-box; /* Include padding and border in element's total width and height */
-    display: flex; /* Use flexbox for layout */
-    font-size: 24px; /* Font size for main content */
-    margin: 10px
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
-    gap: 10px; /* Space between items */
-    flex-direction: column; /* Stack items vertically */
-    justify-content: center; /* Center items vertically */
-    align-items: center; /* Center items horizontally */
-       
+    box-sizing: border-box;
+    /* Include padding and border in element's total width and height */
+    display: flex;
+    /* Use flexbox for layout */
+    font-size: 24px;
+    /* Font size for main content */
+    margin: 10px flex-wrap: wrap;
+    /* Allow items to wrap to the next line */
+    gap: 10px;
+    /* Space between items */
+    flex-direction: column;
+    /* Stack items vertically */
+    justify-content: center;
+    /* Center items vertically */
+    align-items: center;
+    /* Center items horizontally */
+
 }
 
 .main .subsec1 {
-    flex: 1; /* Takes up available space */
-    padding: 10px; /* Padding for sub-section */
-    background-color: #e0e0e0; /* Slightly darker gray background */
-    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    flex: 1;
+    /* Takes up available space */
+    padding: 10px;
+    /* Padding for sub-section */
+    background-color: #e0e0e0;
+    /* Slightly darker gray background */
+    box-sizing: border-box;
+    /* Include padding and border in element's total width and height */
     font-size: 15px;
     flex: 1 1 0%
 }
 
 .button1 {
-    background-color: blueviolet; /* Green background */
-    border: none; /* No border */
-    color: white; /* White text */
-    padding: 10px 20px; /* Padding for button */
-    text-align: center; /* Centered text */
-    text-decoration: none; /* No underline */
-    display: inline-block; /* Inline block for button */
-    font-size: 16px; /* Font size for button */
-    margin: 4px 2px; /* Margin around button */
-    cursor: pointer; /* Pointer cursor on hover */
+    background-color: blueviolet;
+    /* Green background */
+    border: none;
+    /* No border */
+    color: white;
+    /* White text */
+    padding: 10px 20px;
+    /* Padding for button */
+    text-align: center;
+    /* Centered text */
+    text-decoration: none;
+    /* No underline */
+    display: flex;
+    /* Inline block for button */
+    font-size: 16px;
+    /* Font size for button */
+    margin: 4px 2px;
+    /* Margin around button */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    ;
 }
+
 .button1:hover {
-    background-color: #45a049; /* Darker green on hover */
-    }
+    background-color: #45a049;
+    /* Darker green on hover */
+}
 
 .moorhen {
-    justify-items: end
-    align-items: end; /* Center items vertically */
+    display: flex;
+    justify-items: end;
+    align-items: end;
+    /* Center items vertically */
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+
+
 }
 
 .subtext {
-    font-size: 18px; /* Font size for subtext */
-    color: #333; /* Dark gray text color */
-    margin: 10px 0; /* Margin around subtext */
-    text-align: center; /* Centered text */
-    display: flex; /* Use flexbox for layout */
-    flex-direction: row; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
-    box-sizing: border-box; /* Include padding and border in element's total width and height */
-    padding: 10px; /* Padding for subtext */
+    font-size: 18px;
+    /* Font size for subtext */
+    color: #333;
+    /* Dark gray text color */
+    margin: 10px 0;
+    /* Margin around subtext */
+    text-align: center;
+    /* Centered text */
+    display: flex;
+    /* Use flexbox for layout */
+    flex-direction: column;
+    /* Stack items vertically */
+    align-items: center;
+    /* Center items horizontally */
+    justify-content: center;
+    /* Center items vertically */
+    box-sizing: border-box;
+    /* Include padding and border in element's total width and height */
+    padding: 10px;
+    /* Padding for subtext */
 }
