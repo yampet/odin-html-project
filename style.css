@@ -17,7 +17,7 @@ header .hot {
     color: white; /* White text */
     padding: 10px; /* Padding for hot item */
     margin: 10px; /* Margin around hot item */
-    flex: ; /* Takes up available space */
+    flex: 1; /* Takes up available space */
     text-align: center; /* Centered text in hot item */
     font-size: 24px; /* Font size for hot item */
 
@@ -67,6 +67,18 @@ header .flex-item {
     cursor: pointer; /* Pointer cursor on hover */
 }
 .button1:hover {
-    background-color: #45a049; /* Darker green on hover */  
+    background-color: #45a049; /* Darker green on hover */
 }
 
+.subtext {
+    font-size: 18px; /* Font size for subtext */
+    color: #333; /* Dark gray text color */
+    margin: 10px 0; /* Margin around subtext */
+    text-align: center; /* Centered text */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: row; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    padding: 10px; /* Padding for subtext */
+}
