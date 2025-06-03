@@ -142,9 +142,10 @@ header .flex-item {
     flex: 1 1 0%;
     width: 40px;
     height: 40px;
+
 }
 
-.box .boxy {
+.boxy {
     background-color: whitesmoke;
     /* Slightly darker gray background */
     border: 1px solid #ccc;
@@ -161,4 +162,19 @@ header .flex-item {
     flex: 1 1 0%;
     width: auto;
     height: 40px;}
+    
+}
+
+.subsec6 {
+    flex: 1;
+    /* Takes up available space */
+    padding: 10px;
+    /* Padding for sub-section */
+    background-color: #e0e0e0;
+    /* Slightly darker gray background */
+    box-sizing: border-box;
+    /* Include padding and border in element's total width and height */
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
 }
