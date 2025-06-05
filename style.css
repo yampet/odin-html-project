@@ -140,8 +140,8 @@ header .flex-item {
     /* Font size for box */
     display: flex;
     flex: 1 1 0%;
-    width: 40px;
-    height: 40px;
+    width: auto;
+    height: 60px;
 
 }
 
@@ -156,13 +156,13 @@ header .flex-item {
     /* Margin around box */
     text-align: center;
     /* Centered text in box */
-    font-size: 18px;
+    font-size: 12px;
     /* Font size for box */
     display: flex;
     flex: 1 1 0%;
-    width: auto;
-    height: 40px;}
-    
+    width: 70px;
+    height: 70px;
+    text-wrap: pretty;
 }
 
 .subsec6 {
