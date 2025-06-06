@@ -186,4 +186,5 @@ header .flex-item {
 footer {
     text-align: center;
     font-style: italic;
+    font-weight: 100;
 }
