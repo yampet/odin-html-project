@@ -164,3 +164,15 @@ header .flex-item {
     height: 70px;
     text-wrap: pretty;
 }
+.subsec6 {
+    flex: 1;
+    /* Takes up available space */
+    padding: 10px;
+    /* Padding for sub-section */
+    background-color: #e0e0e0;
+    /* Slightly darker gray background */
+    box-sizing: border-box;
+    /* Include padding and border in element's total width and height */
+    font-size: 15px;
+    flex: 1 1 0%;
+}
